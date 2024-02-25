@@ -1,0 +1,94 @@
+header .container ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+header .container ul a{
+    text-decoration: none;
+    color: black;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+header{
+    background-color: rgba(237, 230, 221, 1);
+}
+
+.intro h1{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(30, 25, 40, 1);
+}
+
+.intro p{
+    line-height: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(30, 25, 40, 0.8);
+}
+
+.intro .container{
+    display: flex;
+}
+
+.intro{
+    background-color: rgba(237, 230, 221, 1);
+    padding-bottom: 200px;
+}
+
+.intro .left input {
+    border: none;
+    padding: 15px 25px 15px 25px;
+    width: 500px;
+    border-radius: 30px;
+}
+
+.intro .left button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    position: relative; right: 150px; bottom: 0px;
+}
+
+.form-box{
+    background-image: url(./images/image\ 1.png);
+    height: 365px;
+    position: relative; bottom: 400px;
+    color: white;
+}
+
+.info{
+    padding-top: 200px;
+    background: rgba(255, 211, 148, 1);
+}
+
+.form-box img form h1{
+   font-size: 32px;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+}
+
+.form-box img form p{
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.info2{
+    display: flex;
+    justify-content: space-between;
+}
