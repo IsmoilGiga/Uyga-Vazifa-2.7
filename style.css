@@ -1,47 +1,48 @@
-header .container ul{
+header .container ul {
     list-style: none;
     display: flex;
     gap: 30px;
     align-items: center;
 }
 
-header .container ul a{
+header .container ul a {
     text-decoration: none;
     color: black;
 }
-header .container{
+
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.container{
+.container {
     width: 1140px;
     margin: 0 auto 0 auto;
 }
 
-header{
+header {
     background-color: rgba(237, 230, 221, 1);
 }
 
-.intro h1{
+.intro h1 {
     font-size: 48px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(30, 25, 40, 1);
 }
 
-.intro p{
+.intro p {
     line-height: 30px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(30, 25, 40, 0.8);
 }
 
-.intro .container{
+.intro .container {
     display: flex;
 }
 
-.intro{
+.intro {
     background-color: rgba(237, 230, 221, 1);
     padding-bottom: 200px;
 }
@@ -59,36 +60,122 @@ header{
     border: none;
     padding: 10px 20px 10px 20px;
     border-radius: 30px;
-    position: relative; right: 150px; bottom: 0px;
+    position: relative;
+    right: 150px;
+    bottom: 0px;
 }
 
-.form-box{
-    background-image: url(./images/image\ 1.png);
-    height: 365px;
-    position: relative; bottom: 400px;
+.relief {
+    position: absolute; top: 70%; left: 12%;
+    background-image: url('./images/image\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: white;
-}
-
-.info{
-    padding-top: 200px;
-    background: rgba(255, 211, 148, 1);
-}
-
-.form-box img form h1{
-   font-size: 32px;
-   justify-content: center;
-   display: flex;
-   align-items: center;
-}
-
-.form-box img form p{
-    font-size: 18px;
-    justify-content: center;
+    height: 350px;
+    text-align: center;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    width: 1140px;
 }
 
-.info2{
+
+
+.relief p {
+    width: 500px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.relief a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.works {
+    background-color: #FFD394;
+    padding: 40px;
+}
+
+.works h2 {
+    margin-top: 0;
+    font-size: 42px;
+}
+
+.works .container {
+    padding-top: 200px;
     display: flex;
     justify-content: space-between;
+}
+
+.works .right .order {
+    background-color: black;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.works .work {
+    display: flex;
+    gap: 30px;
+}
+
+.works .right {
+    width: 600px;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+footer .right div {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+footer .right  {
+    display: flex;
+    gap: 20px;
+}
+
+footer{
+    padding: 40px;
 }
