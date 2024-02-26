@@ -124,6 +124,17 @@ header {
     border-radius: 50%;
 }
 
+.works .right .order2{
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
 .works .work {
     display: flex;
     gap: 30px;
